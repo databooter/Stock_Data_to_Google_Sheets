@@ -9,7 +9,7 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 
 # Defining credentials
-creds = ServiceAccountCredentials.from_json_keyfile_name("../creds.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("../../creds.json", scope)
 
 # Defining workbook:
 workbook = "Short-term Rental Equity Data"
