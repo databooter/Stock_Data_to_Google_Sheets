@@ -12,9 +12,7 @@ def str_data_pull(stocks, creds, workbook):
     # Pulling market cap data from yahoo and putting into caps_df dataframe
     time.sleep(10)
     caps = data.get_quote_yahoo(stocks)['marketCap']
-    time.sleep(20)
     caps_df = pd.DataFrame(caps)
-    time.sleep(10)
 
     # Pulling historical stock price data from yahoo and putting in str_data dataframe
     time.sleep(10)
