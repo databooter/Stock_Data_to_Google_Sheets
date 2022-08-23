@@ -10,5 +10,6 @@ Example of raw data pushed by python
 ![image](https://user-images.githubusercontent.com/71391244/186156038-2cb4f327-a2a7-414b-ae3b-6039320bc45b.png)
 
 Example of individual company sheet
-![image](https://user-images.githubusercontent.com/71391244/186156836-12ea02f0-22cc-4f8e-8412-03ea49069c1c.png)
+![image](https://user-images.githubusercontent.com/71391244/186156987-0dbc92ec-9f65-4ffb-ad84-91fb8490f897.png)
+
 
