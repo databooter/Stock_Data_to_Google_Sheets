@@ -52,7 +52,7 @@ class Category:
                  "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 
         """Defining credentials"""
-        creds = ServiceAccountCredentials.from_json_keyfile_name(r'../creds.json', scope)
+        creds = ServiceAccountCredentials.from_json_keyfile_name(r'../../creds.json', scope)
 
         """Connecting to Google Sheets"""
         client = gspread.authorize(creds)
