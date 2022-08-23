@@ -1,6 +1,5 @@
 class Category:
-    """ Categories which are stocks grouped by a industry,
-     they have a set timeframe, and a workbook - superclass """
+    """ Categories are portfolios that are assigned an industry, list of stocks and a workbook """
     def __init__(self, industry, stocks, workbook):
         self.industry = industry
         self.stocks = stocks
